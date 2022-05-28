@@ -10,7 +10,7 @@
         android:id="@+id/fieldEncryptedTextToDecrypt"
         android:layout_width="348dp"
         android:layout_height="150dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="32dp"
         android:editable="true"
         android:ems="10"
         android:gravity="start|top"
@@ -30,18 +30,18 @@
         android:id="@+id/btnBeginDecrypt"
         android:layout_width="320dp"
         android:layout_height="50dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="16dp"
         android:text="Decrypt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fieldEncryptedTextToDecrypt" />
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenFileToDecrypt" />
 
     <EditText
         android:id="@+id/fieldDecryptedText"
         android:layout_width="348dp"
         android:layout_height="150dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="32dp"
         android:editable="false"
         android:ems="10"
         android:enabled="true"
@@ -63,10 +63,30 @@
         android:id="@+id/btnCopyDecryptedText"
         android:layout_width="320dp"
         android:layout_height="50dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="16dp"
         android:text="Copy Text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fieldDecryptedText" />
+
+    <Button
+        android:id="@+id/btnOpenFileToDecrypt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Or open from a file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fieldEncryptedTextToDecrypt" />
+
+    <Button
+        android:id="@+id/btnSaveToFileDecrypt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="save to file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCopyDecryptedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
