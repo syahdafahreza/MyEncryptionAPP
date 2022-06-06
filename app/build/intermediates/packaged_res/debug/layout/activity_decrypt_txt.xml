@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DecryptActivityTXT">
+
+    <EditText
+        android:id="@+id/fieldEncryptedTextToDecrypt"
+        android:layout_width="348dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#000000"
+        android:drawableTint="#000000"
+        android:editable="true"
+        android:ems="10"
+        android:foregroundTint="#000000"
+        android:gravity="start|top"
+        android:hint="Input the text you wish to decrypt here"
+        android:inputType="none"
+        android:scrollbars="vertical"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnBeginDecryptTXT"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Decrypt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenFileToDecrypt" />
+
+    <EditText
+        android:id="@+id/fieldDecryptedText"
+        android:layout_width="348dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#000000"
+        android:drawableTint="#000000"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="true"
+        android:foregroundTint="#000000"
+        android:gravity="start|top"
+        android:hint="Your decrypted text shows here"
+        android:inputType="none"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBeginDecryptTXT"
+        app:layout_constraintVertical_bias="0.079"
+        tools:ignore="Deprecated,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnCopyDecryptedText"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Copy Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fieldDecryptedText" />
+
+    <Button
+        android:id="@+id/btnOpenFileToDecrypt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="open from a file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fieldEncryptedTextToDecrypt" />
+
+    <Button
+        android:id="@+id/btnSaveToFileDecrypt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="save to file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCopyDecryptedText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

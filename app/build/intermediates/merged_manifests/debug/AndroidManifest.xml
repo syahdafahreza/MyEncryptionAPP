@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myproject.myencryptionapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.MyEncryptionAPP" >
+        <activity
+            android:name="com.myproject.myencryptionapp.DecryptActivityPDF"
+            android:exported="false" />
+        <activity
+            android:name="com.myproject.myencryptionapp.EncryptActivityPDF"
+            android:exported="false" />
+        <activity
+            android:name="com.myproject.myencryptionapp.MainMenuPDF"
+            android:exported="false"
+            android:label="Document"
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
+        <activity
+            android:name="com.myproject.myencryptionapp.DecryptActivityIMG"
+            android:exported="false"
+            android:label="Image Decryption"
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuIMG" />
+        <activity
+            android:name="com.myproject.myencryptionapp.EncryptActivityIMG"
+            android:exported="false"
+            android:label="Image Encryption"
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuIMG" />
+        <activity
+            android:name="com.myproject.myencryptionapp.MainMenuIMG"
+            android:exported="false"
+            android:label="Image"
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
+        <activity
+            android:name="com.myproject.myencryptionapp.MainMenuAPP"
+            android:exported="false" />
+        <activity
+            android:name="com.myproject.myencryptionapp.DecryptActivityTXT"
+            android:exported="false"
+            android:label="Text Decryption"
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuTXT" />
+        <activity
+            android:name="com.myproject.myencryptionapp.EncryptActivityTXT"
+            android:exported="false"
+            android:label="Text Encryption"
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuTXT" />
+        <activity
+            android:name="com.myproject.myencryptionapp.MainMenuTXT"
+            android:exported="false"
+            android:label="Text"
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
+        <activity
+            android:name="com.myproject.myencryptionapp.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.myproject.myencryptionapp.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

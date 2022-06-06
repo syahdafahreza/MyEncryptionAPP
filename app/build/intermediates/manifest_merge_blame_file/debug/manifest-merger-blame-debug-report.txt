@@ -1,0 +1,178 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myproject.myencryptionapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:6:5-81
+11-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:7:5-80
+12-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:7:22-77
+13
+14    <application
+14-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:9:5-72:19
+15        android:allowBackup="true"
+15-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\e36cb75ae4f72b56337362533afd3af2\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:11:9-65
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:12:9-54
+21        android:icon="@mipmap/ic_launcher"
+21-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.MyEncryptionAPP" >
+26-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:17:9-53
+27        <activity
+27-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:19:9-21:40
+28            android:name="com.myproject.myencryptionapp.DecryptActivityPDF"
+28-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:20:13-47
+29            android:exported="false" />
+29-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:21:13-37
+30        <activity
+30-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:22:9-24:40
+31            android:name="com.myproject.myencryptionapp.EncryptActivityPDF"
+31-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:23:13-47
+32            android:exported="false" />
+32-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:24:13-37
+33        <activity
+33-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:25:9-29:57
+34            android:name="com.myproject.myencryptionapp.MainMenuPDF"
+34-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:26:13-40
+35            android:exported="false"
+35-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:27:13-37
+36            android:label="Document"
+36-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:28:13-37
+37            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
+37-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:29:13-54
+38        <activity
+38-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:30:9-34:57
+39            android:name="com.myproject.myencryptionapp.DecryptActivityIMG"
+39-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:31:13-47
+40            android:exported="false"
+40-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:32:13-37
+41            android:label="Image Decryption"
+41-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:33:13-45
+42            android:parentActivityName="com.myproject.myencryptionapp.MainMenuIMG" />
+42-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:34:13-54
+43        <activity
+43-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:35:9-39:57
+44            android:name="com.myproject.myencryptionapp.EncryptActivityIMG"
+44-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:36:13-47
+45            android:exported="false"
+45-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:37:13-37
+46            android:label="Image Encryption"
+46-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:38:13-45
+47            android:parentActivityName="com.myproject.myencryptionapp.MainMenuIMG" />
+47-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:39:13-54
+48        <activity
+48-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:40:9-44:57
+49            android:name="com.myproject.myencryptionapp.MainMenuIMG"
+49-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:41:13-40
+50            android:exported="false"
+50-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:42:13-37
+51            android:label="Image"
+51-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:43:13-34
+52            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
+52-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:44:13-54
+53        <activity
+53-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:45:9-47:40
+54            android:name="com.myproject.myencryptionapp.MainMenuAPP"
+54-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:46:13-40
+55            android:exported="false" />
+55-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:47:13-37
+56        <activity
+56-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:48:9-52:57
+57            android:name="com.myproject.myencryptionapp.DecryptActivityTXT"
+57-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:49:13-47
+58            android:exported="false"
+58-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:50:13-37
+59            android:label="Text Decryption"
+59-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:51:13-44
+60            android:parentActivityName="com.myproject.myencryptionapp.MainMenuTXT" />
+60-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:52:13-54
+61        <activity
+61-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:53:9-57:57
+62            android:name="com.myproject.myencryptionapp.EncryptActivityTXT"
+62-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:54:13-47
+63            android:exported="false"
+63-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:55:13-37
+64            android:label="Text Encryption"
+64-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:56:13-44
+65            android:parentActivityName="com.myproject.myencryptionapp.MainMenuTXT" />
+65-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:57:13-54
+66        <activity
+66-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:58:9-62:57
+67            android:name="com.myproject.myencryptionapp.MainMenuTXT"
+67-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:59:13-40
+68            android:exported="false"
+68-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:60:13-37
+69            android:label="Text"
+69-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:61:13-33
+70            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
+70-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:62:13-54
+71        <activity
+71-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:63:9-71:20
+72            android:name="com.myproject.myencryptionapp.MainActivity"
+72-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:64:13-41
+73            android:exported="true" >
+73-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:65:13-36
+74            <intent-filter>
+74-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:66:13-70:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:67:17-69
+75-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:67:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:69:17-77
+77-->Y:\Document\Android Studio Projects\MyEncryptionAPP\app\src\main\AndroidManifest.xml:69:27-74
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->[com.karumi:dexter:6.2.3] C:\Users\ASUS\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+81            android:name="com.karumi.dexter.DexterActivity"
+81-->[com.karumi:dexter:6.2.3] C:\Users\ASUS\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:28:13-60
+82            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+82-->[com.karumi:dexter:6.2.3] C:\Users\ASUS\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:29:13-69
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+86            android:authorities="com.myproject.myencryptionapp.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-3\1a66539b8fdc40eb9d840cfdf85902fb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-3\1a66539b8fdc40eb9d840cfdf85902fb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ASUS\.gradle\caches\transforms-3\1a66539b8fdc40eb9d840cfdf85902fb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+94        </provider>
+95    </application>
+96
+97</manifest>
