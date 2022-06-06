@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.myproject.myencryptionapp">
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,16 +17,49 @@
         android:theme="@style/Theme.MyEncryptionAPP"
         tools:targetApi="31">
         <activity
-            android:name=".DecryptActivity"
-            android:exported="false"
-            android:label="Text Decryption"/>
-        <activity
-            android:name=".EncryptActivity"
-            android:exported="false"
-            android:label="Text Encryption"/>
-        <activity
-            android:name=".MainMenu"
+            android:name=".DecryptActivityPDF"
             android:exported="false" />
+        <activity
+            android:name=".EncryptActivityPDF"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuPDF"
+            android:exported="false"
+            android:label="Document"
+            android:parentActivityName=".MainMenuAPP" />
+        <activity
+            android:name=".DecryptActivityIMG"
+            android:exported="false"
+            android:label="Image Decryption"
+            android:parentActivityName=".MainMenuIMG" />
+        <activity
+            android:name=".EncryptActivityIMG"
+            android:exported="false"
+            android:label="Image Encryption"
+            android:parentActivityName=".MainMenuIMG" />
+        <activity
+            android:name=".MainMenuIMG"
+            android:exported="false"
+            android:label="Image"
+            android:parentActivityName=".MainMenuAPP" />
+        <activity
+            android:name=".MainMenuAPP"
+            android:exported="false" />
+        <activity
+            android:name=".DecryptActivityTXT"
+            android:exported="false"
+            android:label="Text Decryption"
+            android:parentActivityName=".MainMenuTXT" />
+        <activity
+            android:name=".EncryptActivityTXT"
+            android:exported="false"
+            android:label="Text Encryption"
+            android:parentActivityName=".MainMenuTXT" />
+        <activity
+            android:name=".MainMenuTXT"
+            android:exported="false"
+            android:label="Text"
+            android:parentActivityName=".MainMenuAPP" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

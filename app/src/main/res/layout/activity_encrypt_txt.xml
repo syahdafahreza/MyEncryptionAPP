@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncryptActivityTXT">
+
+    <EditText
+        android:id="@+id/fieldTextToEncrypt"
+        android:layout_width="348dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#000000"
+        android:drawableTint="#000000"
+        android:editable="true"
+        android:ems="10"
+        android:foregroundTint="#000000"
+        android:gravity="start|top"
+        android:hint="Input the text you wish to encrypt here"
+        android:inputType="none"
+        android:scrollbars="vertical"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/fieldEncryptedText"
+        android:layout_width="348dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#000000"
+        android:drawableTint="#000000"
+        android:editable="false"
+        android:ems="10"
+        android:enabled="true"
+        android:foregroundTint="#000000"
+        android:gravity="start|top"
+        android:hint="Your encrypted text shows here"
+        android:inputType="none"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBeginEncryptTXT"
+        app:layout_constraintVertical_bias="0.079"
+        tools:ignore="Deprecated,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnCopyEncryptedText"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Copy Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fieldEncryptedText" />
+
+    <Button
+        android:id="@+id/btnBeginEncryptTXT"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Encrypt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenFileToEncrypt" />
+
+    <Button
+        android:id="@+id/btnOpenFileToEncrypt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="open from a file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fieldTextToEncrypt" />
+
+    <Button
+        android:id="@+id/btnSaveToFileEncrypt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="save to file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCopyEncryptedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

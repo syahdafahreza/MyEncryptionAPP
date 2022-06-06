@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_decrypt.xml" value="0.25" />
-        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_encrypt.xml" value="0.22056159420289856" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_decrypt.xml" value="0.21403508771929824" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_decrypt_img.xml" value="0.20394736842105263" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_decrypt_txt.xml" value="0.21403508771929824" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_encrypt.xml" value="0.21403508771929824" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_encrypt_img.xml" value="0.20923913043478262" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_encrypt_txt.xml" value="0.21403508771929824" />
         <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_main.xml" value="0.22056159420289856" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_main_menu.xml" value="0.21403508771929824" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_main_menu_app.xml" value="0.21403508771929824" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_main_menu_img.xml" value="0.21403508771929824" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_main_menu_pdf.xml" value="0.21403508771929824" />
+        <entry key="..\:/Document/Android Studio Projects/MyEncryptionAPP/app/src/main/res/layout/activity_main_menu_txt.xml" value="0.21403508771929824" />
         <entry key="..\:/Users/Entahlah/AndroidStudioProjects/MyEncryptionAPP/app/src/main/res/layout/activity_decrypt.xml" value="0.22056159420289856" />
         <entry key="..\:/Users/Entahlah/AndroidStudioProjects/MyEncryptionAPP/app/src/main/res/layout/activity_encrypt.xml" value="0.22056159420289856" />
         <entry key="..\:/Users/Entahlah/AndroidStudioProjects/MyEncryptionAPP/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
