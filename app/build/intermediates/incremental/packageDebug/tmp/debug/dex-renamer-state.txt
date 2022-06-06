@@ -1,12 +1,12 @@
-#Mon Jun 06 18:06:29 WIB 2022
+#Tue Jun 07 00:19:37 WIB 2022
 path.3=9/classes.dex
 path.2=4/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=Y\:\\Document\\Android Studio Projects\\MyEncryptionAPP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.2=Y\:\\Document\\Android Studio Projects\\MyEncryptionAPP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.1=Y\:\\Document\\Android Studio Projects\\MyEncryptionAPP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=Y\:\\Document\\Android Studio Projects\\MyEncryptionAPP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.3=C\:\\Users\\ASUS\\Documents\\GitHub\\MyEncryptionAPP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.2=C\:\\Users\\ASUS\\Documents\\GitHub\\MyEncryptionAPP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.1=C\:\\Users\\ASUS\\Documents\\GitHub\\MyEncryptionAPP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\ASUS\\Documents\\GitHub\\MyEncryptionAPP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

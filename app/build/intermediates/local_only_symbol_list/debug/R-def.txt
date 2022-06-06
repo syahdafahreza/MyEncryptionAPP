@@ -27,6 +27,7 @@ id btnEncryptPDFActivity
 id btnEncryptTXTActivity
 id btnOpenFileToDecrypt
 id btnOpenFileToEncrypt
+id btnOpenIMGFileEncrypted
 id btnOpenImg2Encrypt
 id btnSaveToFileDecrypt
 id btnSaveToFileEncrypt

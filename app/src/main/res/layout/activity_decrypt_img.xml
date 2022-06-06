@@ -10,11 +10,13 @@
         android:id="@+id/btnBeginDecryptIMG"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Decrypt"
+        android:layout_marginTop="16dp"
+        android:enabled="false"
+        android:text="Decrypt and save!"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewDecrypted" />
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenIMGFileEncrypted" />
 
     <ImageView
         android:id="@+id/imageViewDecrypted"
@@ -26,4 +28,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/noimage2"
         tools:srcCompat="@drawable/noimage2" />
+
+    <Button
+        android:id="@+id/btnOpenIMGFileEncrypted"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="open from a file"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDecrypted" />
 </androidx.constraintlayout.widget.ConstraintLayout>

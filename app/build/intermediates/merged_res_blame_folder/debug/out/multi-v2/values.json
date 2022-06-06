@@ -23,6 +23,42 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\ASUS\\Documents\\GitHub\\MyEncryptionAPP\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "630",
+                        "startColumns": "4",
+                        "startOffsets": "32652",
+                        "endColumns": "56",
+                        "endOffsets": "32704"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ASUS\\Documents\\GitHub\\MyEncryptionAPP\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "838"
+                    },
+                    "to": {
+                        "startLines": "5805",
+                        "startColumns": "4",
+                        "startOffsets": "388235",
+                        "endLines": "5817",
+                        "endColumns": "12",
+                        "endOffsets": "388836"
+                    }
+                },
+                {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\6143069db51775c88201d714a5db379c\\transformed\\lifecycle-runtime-2.4.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -264,37 +300,20 @@
                     }
                 },
                 {
-                    "source": "Y:\\Document\\Android Studio Projects\\MyEncryptionAPP\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "source": "C:\\Users\\ASUS\\Documents\\GitHub\\MyEncryptionAPP\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "283,57,103,149,195,239,324",
+                        "endColumns": "39,44,44,44,42,42,41",
+                        "endOffsets": "318,97,143,189,233,277,361"
                     },
                     "to": {
-                        "startLines": "630",
-                        "startColumns": "4",
-                        "startOffsets": "32652",
-                        "endColumns": "56",
-                        "endOffsets": "32704"
-                    }
-                },
-                {
-                    "source": "Y:\\Document\\Android Studio Projects\\MyEncryptionAPP\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "54",
-                        "endOffsets": "66"
-                    },
-                    "to": {
-                        "startLines": "1598",
-                        "startColumns": "4",
-                        "startOffsets": "97664",
-                        "endColumns": "54",
-                        "endOffsets": "97714"
+                        "startLines": "572,797,798,799,810,811,815",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "28618,44731,44776,44821,45563,45606,45812",
+                        "endColumns": "39,44,44,44,42,42,41",
+                        "endOffsets": "28653,44771,44816,44861,45601,45644,45849"
                     }
                 },
                 {
@@ -334,39 +353,20 @@
                     }
                 },
                 {
-                    "source": "Y:\\Document\\Android Studio Projects\\MyEncryptionAPP\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\ASUS\\Documents\\GitHub\\MyEncryptionAPP\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "824"
+                        "startOffsets": "17",
+                        "endColumns": "54",
+                        "endOffsets": "67"
                     },
                     "to": {
-                        "startLines": "5805",
+                        "startLines": "1598",
                         "startColumns": "4",
-                        "startOffsets": "388235",
-                        "endLines": "5817",
-                        "endColumns": "12",
-                        "endOffsets": "388836"
-                    }
-                },
-                {
-                    "source": "Y:\\Document\\Android Studio Projects\\MyEncryptionAPP\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "276,55,100,145,190,233,316",
-                        "endColumns": "39,44,44,44,42,42,41",
-                        "endOffsets": "311,95,140,185,228,271,353"
-                    },
-                    "to": {
-                        "startLines": "572,797,798,799,810,811,815",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "28618,44731,44776,44821,45563,45606,45812",
-                        "endColumns": "39,44,44,44,42,42,41",
-                        "endOffsets": "28653,44771,44816,44861,45601,45644,45849"
+                        "startOffsets": "97664",
+                        "endColumns": "54",
+                        "endOffsets": "97714"
                     }
                 },
                 {
