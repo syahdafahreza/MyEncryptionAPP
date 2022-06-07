@@ -2498,6 +2498,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nofile
 drawable noimage
 drawable noimage2
 drawable notification_action_background
@@ -2512,6 +2513,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pdfinputfile
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2618,6 +2620,7 @@ id bounceStart
 id btnBeginDecryptIMG
 id btnBeginDecryptTXT
 id btnBeginEncryptIMG
+id btnBeginEncryptPDF
 id btnBeginEncryptTXT
 id btnCopyDecryptedText
 id btnCopyEncryptedText
@@ -2627,10 +2630,11 @@ id btnDecryptTXTActivity
 id btnEncryptIMGActivity
 id btnEncryptPDFActivity
 id btnEncryptTXTActivity
-id btnOpenFileToDecrypt
-id btnOpenFileToEncrypt
+id btnOpenFilePDF
 id btnOpenIMGFileEncrypted
 id btnOpenImg2Encrypt
+id btnOpenTXTFileToDecrypt
+id btnOpenTXTFileToEncrypt
 id btnSaveToFileDecrypt
 id btnSaveToFileEncrypt
 id btnShowAudioMenu
@@ -2732,6 +2736,8 @@ id fieldDecryptedText
 id fieldEncryptedText
 id fieldEncryptedTextToDecrypt
 id fieldTextToEncrypt
+id filenamePDFTextView
+id filesizePDFTextView
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2772,6 +2778,7 @@ id image
 id imageView
 id imageView2Encrypt
 id imageViewDecrypted
+id imageViewPDFIconState
 id immediateStop
 id included
 id info
@@ -2992,6 +2999,9 @@ id textView
 id textView2
 id textView3
 id textView4
+id textView5
+id textView6
+id textView8
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

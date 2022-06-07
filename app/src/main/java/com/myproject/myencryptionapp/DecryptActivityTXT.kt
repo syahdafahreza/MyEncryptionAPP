@@ -30,7 +30,7 @@ class DecryptActivityTXT : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_decrypt_txt)
 
-        val buttonOpenEncrypted = findViewById<Button>(R.id.btnOpenFileToDecrypt)
+        val buttonOpenEncrypted = findViewById<Button>(R.id.btnOpenTXTFileToDecrypt)
         val buttonDecrypt = findViewById<Button>(R.id.btnBeginDecryptTXT)
         val buttonCopyDecryptedText = findViewById<Button>(R.id.btnCopyDecryptedText)
         val buttonSaveDecryptedText = findViewById<Button>(R.id.btnSaveToFileDecrypt)

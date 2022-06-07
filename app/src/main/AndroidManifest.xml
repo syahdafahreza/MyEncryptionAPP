@@ -21,7 +21,9 @@
             android:exported="false" />
         <activity
             android:name=".EncryptActivityPDF"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Document Encryption"
+            android:parentActivityName=".MainMenuPDF"/>
         <activity
             android:name=".MainMenuPDF"
             android:exported="false"

@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnOpenFileToDecrypt" />
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenTXTFileToDecrypt" />
 
     <EditText
         android:id="@+id/fieldDecryptedText"
@@ -79,7 +79,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fieldDecryptedText" />
 
     <Button
-        android:id="@+id/btnOpenFileToDecrypt"
+        android:id="@+id/btnOpenTXTFileToDecrypt"
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"

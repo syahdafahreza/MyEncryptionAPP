@@ -37,7 +37,7 @@ class EncryptActivityTXT : AppCompatActivity() {
 
         val buttonEncrypt = findViewById<Button>(R.id.btnBeginEncryptTXT)
         val buttonCopyEncryptedText = findViewById<Button>(R.id.btnCopyEncryptedText)
-        val buttonOpenFileToEncrypt = findViewById<Button>(R.id.btnOpenFileToEncrypt)
+        val buttonOpenFileToEncrypt = findViewById<Button>(R.id.btnOpenTXTFileToEncrypt)
         val buttonSaveToFileEncrypt = findViewById<Button>(R.id.btnSaveToFileEncrypt)
         buttonEncrypt.setOnClickListener {
             val txt_to_enc = findViewById<EditText>(R.id.fieldTextToEncrypt).text.toString()
