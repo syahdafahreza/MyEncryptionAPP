@@ -20,12 +20,24 @@
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "com.myproject.myencryptionapp-merged_res-27:/drawable_nofile_fix.png.flat",
+        "source": "com.myproject.myencryptionapp-main-29:/drawable/nofile_fix.png"
+    },
+    {
+        "merged": "com.myproject.myencryptionapp-merged_res-27:/drawable_pdfinputfile_fix_enc.png.flat",
+        "source": "com.myproject.myencryptionapp-main-29:/drawable/pdfinputfile_fix_enc.png"
+    },
+    {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\layout_activity_main_menu_pdf.xml.flat",
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\layout\\activity_main_menu_pdf.xml"
     },
     {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\layout_activity_main_menu_app_alt.xml.flat",
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\layout\\activity_main_menu_app_alt.xml"
+    },
+    {
+        "merged": "com.myproject.myencryptionapp-merged_res-27:/drawable_pdfinputfile_fix.png.flat",
+        "source": "com.myproject.myencryptionapp-main-29:/drawable/pdfinputfile_fix.png"
     },
     {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\xml_data_extraction_rules.xml.flat",
@@ -38,6 +50,18 @@
     {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\drawable_nofile.png.flat",
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\drawable\\nofile.png"
+    },
+    {
+        "merged": "com.myproject.myencryptionapp-merged_res-27:/drawable_nofile_fix_c.png.flat",
+        "source": "com.myproject.myencryptionapp-main-29:/drawable/nofile_fix_c.png"
+    },
+    {
+        "merged": "com.myproject.myencryptionapp-merged_res-27:/drawable_pdfinputfile_fix_c.png.flat",
+        "source": "com.myproject.myencryptionapp-main-29:/drawable/pdfinputfile_fix_c.png"
+    },
+    {
+        "merged": "com.myproject.myencryptionapp-merged_res-27:/drawable_pdfinputfile_fix_c_enc.png.flat",
+        "source": "com.myproject.myencryptionapp-main-29:/drawable/pdfinputfile_fix_c_enc.png"
     },
     {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -68,16 +92,16 @@
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\layout\\activity_main.xml"
     },
     {
+        "merged": "com.myproject.myencryptionapp-merged_res-27:/layout_activity_decrypt_pdf.xml.flat",
+        "source": "com.myproject.myencryptionapp-main-29:/layout/activity_decrypt_pdf.xml"
+    },
+    {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\layout_activity_encrypt_txt.xml.flat",
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\layout\\activity_encrypt_txt.xml"
-    },
-    {
-        "merged": "com.myproject.myencryptionapp-merged_res-27:/drawable_pdfinputfile_enc.png.flat",
-        "source": "com.myproject.myencryptionapp-main-29:/drawable/pdfinputfile_enc.png"
     },
     {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\drawable_noimage2.jpg.flat",
@@ -120,6 +144,10 @@
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\drawable_pdfinputfile_enc.png.flat",
+        "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\drawable\\pdfinputfile_enc.png"
+    },
+    {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\layout_activity_main_menu_app.xml.flat",
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\layout\\activity_main_menu_app.xml"
     },
@@ -142,6 +170,10 @@
     {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-main-29:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.myproject.myencryptionapp-merged_res-27:/layout_activity_encrypt_pdf.xml.flat",
+        "source": "com.myproject.myencryptionapp-main-29:/layout/activity_encrypt_pdf.xml"
     },
     {
         "merged": "C:\\Users\\Entahlah\\.gradle\\daemon\\7.3.3\\com.myproject.myencryptionapp-merged_res-27:\\layout_activity_decrypt_txt.xml.flat",

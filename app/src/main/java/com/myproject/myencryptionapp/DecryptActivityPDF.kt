@@ -163,7 +163,7 @@ class DecryptActivityPDF : AppCompatActivity() {
                 val sizeformat = initialsizeformat.formatAsFileSize
                 size.setText(sizeformat)
                 println("968542985:  "+13.formatAsFileSize)
-                pdficonstate.setImageDrawable(getResources().getDrawable(R.drawable.pdfinputfile_enc));
+                pdficonstate.setImageDrawable(getResources().getDrawable(R.drawable.pdfinputfile_fix_c_enc));
             }
         }
         else if (requestCode == 34

@@ -11,10 +11,16 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable nofile
+drawable nofile_fix
+drawable nofile_fix_c
 drawable noimage
 drawable noimage2
 drawable pdfinputfile
 drawable pdfinputfile_enc
+drawable pdfinputfile_fix
+drawable pdfinputfile_fix_c
+drawable pdfinputfile_fix_c_enc
+drawable pdfinputfile_fix_enc
 drawable universitaslogo
 id btnBeginDecryptIMG
 id btnBeginDecryptPDF

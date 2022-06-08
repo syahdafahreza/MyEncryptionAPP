@@ -2499,6 +2499,8 @@ drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
 drawable nofile
+drawable nofile_fix
+drawable nofile_fix_c
 drawable noimage
 drawable noimage2
 drawable notification_action_background
@@ -2515,6 +2517,10 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pdfinputfile
 drawable pdfinputfile_enc
+drawable pdfinputfile_fix
+drawable pdfinputfile_fix_c
+drawable pdfinputfile_fix_c_enc
+drawable pdfinputfile_fix_enc
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark

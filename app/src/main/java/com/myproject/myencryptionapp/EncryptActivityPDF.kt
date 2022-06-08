@@ -162,7 +162,7 @@ class EncryptActivityPDF : AppCompatActivity() {
                 val sizeformat = initialsizeformat.formatAsFileSize
                 size.setText(sizeformat)
                 println("968542985:  "+13.formatAsFileSize)
-                pdficonstate.setImageDrawable(getResources().getDrawable(R.drawable.pdfinputfile));
+                pdficonstate.setImageDrawable(getResources().getDrawable(R.drawable.pdfinputfile_fix_c));
             }
         }
         else if (requestCode == 32
