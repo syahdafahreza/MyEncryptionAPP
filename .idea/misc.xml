@@ -22,10 +22,12 @@
         <entry key="..\:/Users/Entahlah/AndroidStudioProjects/MyEncryptionAPP/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Entahlah/AndroidStudioProjects/MyEncryptionAPP/app/src/main/res/layout/activity_main_menu.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Entahlah/Documents/GitHub/MyEncryptionAPP/app/src/main/res/layout/activity_decrypt_img.xml" value="0.21403508771929824" />
-        <entry key="..\:/Users/Entahlah/Documents/GitHub/MyEncryptionAPP/app/src/main/res/layout/activity_decrypt_pdf.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Entahlah/Documents/GitHub/MyEncryptionAPP/app/src/main/res/layout/activity_decrypt_pdf.xml" value="0.4" />
         <entry key="..\:/Users/Entahlah/Documents/GitHub/MyEncryptionAPP/app/src/main/res/layout/activity_decrypt_txt.xml" value="0.21403508771929824" />
-        <entry key="..\:/Users/Entahlah/Documents/GitHub/MyEncryptionAPP/app/src/main/res/layout/activity_encrypt_pdf.xml" value="0.6" />
+        <entry key="..\:/Users/Entahlah/Documents/GitHub/MyEncryptionAPP/app/src/main/res/layout/activity_encrypt_pdf.xml" value="0.21403508771929824" />
         <entry key="..\:/Users/Entahlah/Documents/GitHub/MyEncryptionAPP/app/src/main/res/layout/activity_encrypt_txt.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Entahlah/Documents/GitHub/MyEncryptionAPP/app/src/main/res/layout/activity_main_menu_app.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/Entahlah/Documents/GitHub/MyEncryptionAPP/app/src/main/res/layout/activity_main_menu_app_alt.xml" value="0.21403508771929824" />
       </map>
     </option>
   </component>

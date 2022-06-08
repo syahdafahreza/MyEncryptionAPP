@@ -5,13 +5,13 @@ import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.database.Cursor
-import android.graphics.PointF.length
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
 import android.provider.DocumentsContract
 import android.provider.OpenableColumns
+import android.util.Base64
 import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
@@ -25,6 +25,19 @@ import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener
 import com.myproject.myencryptionapp.EncryptActivityPDF.HumanizeUtils.formatAsFileSize
 import java.io.File
+import java.io.IOException
+import java.io.InputStream
+import java.io.OutputStream
+import java.security.InvalidAlgorithmParameterException
+import java.security.InvalidKeyException
+import java.security.NoSuchAlgorithmException
+import javax.crypto.Cipher
+import javax.crypto.CipherOutputStream
+import javax.crypto.NoSuchPaddingException
+import javax.crypto.SecretKeyFactory
+import javax.crypto.spec.IvParameterSpec
+import javax.crypto.spec.PBEKeySpec
+import javax.crypto.spec.SecretKeySpec
 import kotlin.math.log2
 import kotlin.math.pow
 
@@ -35,11 +48,11 @@ class EncryptActivityPDF : AppCompatActivity() {
         private val FILE_NAME_DEC = "image_dec.jpg"
         private val key = "PDY80oOtPHNYz1FG7"
         private val specString = "yoe6Nd84MOZCzbbO"
-        var inputan2Enc = ""
-        var initialpickername: String = ""
-        var initialpickername2: String = ""
-        var initialsize: String = ""
-        var initialsizeformat: Int = 0
+        private var inputPDFUri = ""
+        private var initialpickernamePDFIn: String = ""
+        private var initialpickernamePDFOut: String = ""
+        private var initialsize: String = ""
+        private var initialsizeformat: Int = 0
     }
     object HumanizeUtils {
         val File.formatSize: String
@@ -91,11 +104,14 @@ class EncryptActivityPDF : AppCompatActivity() {
 
         val root = Environment.getExternalStorageDirectory().toString()
 
-        val buttonOpenFilePDFDec = findViewById<Button>(R.id.btnOpenFilePDF)
-
+        val buttonOpenFilePDFDec = findViewById<Button>(R.id.btnOpenFilePDFDec)
+        val buttonSaveFilePDFEnc = findViewById<Button>(R.id.btnBeginEncryptPDF)
 
         buttonOpenFilePDFDec.setOnClickListener {
             openPDFFileDec("$root".toUri())
+        }
+        buttonSaveFilePDFEnc.setOnClickListener {
+            savePDFFileEnc("$root".toUri())
         }
     }
     // Request code for selecting a PDF document.
@@ -117,7 +133,7 @@ class EncryptActivityPDF : AppCompatActivity() {
         val intentSavePDFFileEnc = Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
             addCategory(Intent.CATEGORY_OPENABLE)
             type = "*/*"
-            putExtra(Intent.EXTRA_TITLE, "invoice.pdf")
+            putExtra(Intent.EXTRA_TITLE, initialpickernamePDFIn+"_enc")
 
             // Optionally, specify a URI for the directory that should be opened in
             // the system file picker before your app creates the document.
@@ -136,12 +152,13 @@ class EncryptActivityPDF : AppCompatActivity() {
             resultData?.data?.also { uri31 ->
                 // Perform operations on the document using its URI.
                 dumpImageMetaData(uri31)
-                val pdficonstate = findViewById<ImageView>(R.id.imageViewPDFIconState)
+                inputPDFUri = uri31.toString()
+                val pdficonstate = findViewById<ImageView>(R.id.imageViewPDFIconStateEnc)
                 val buttonEncryptSavePDFstate = findViewById<Button>(R.id.btnBeginEncryptPDF)
-                var filename = findViewById<TextView>(R.id.filenamePDFTextView)
-                val size = findViewById<TextView>(R.id.filesizePDFTextView)
+                var filename = findViewById<TextView>(R.id.filenamePDFTextViewEnc)
+                val size = findViewById<TextView>(R.id.filesizePDFTextViewEnc)
                 buttonEncryptSavePDFstate.setEnabled(true)
-                filename.setText(initialpickername)
+                filename.setText(initialpickernamePDFIn)
                 val sizeformat = initialsizeformat.formatAsFileSize
                 size.setText(sizeformat)
                 println("968542985:  "+13.formatAsFileSize)
@@ -154,10 +171,65 @@ class EncryptActivityPDF : AppCompatActivity() {
             // the user selected.
             resultData?.data?.also { uri32 ->
                 // Perform operations on the document using its URI.
+                try {
+                    encryptPDFToFile(
+                        key,
+                        specString,
+                        inputPDFUri.toUri(),
+                        uri32
+                    )
 
+                    Toast.makeText(this, "Encrypted!", Toast.LENGTH_SHORT).show()
+
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
             }
         }
     }
+    @Throws(
+        NoSuchAlgorithmException::class,
+        NoSuchPaddingException::class,
+        InvalidKeyException::class,
+        IOException::class,
+        InvalidAlgorithmParameterException::class)
+    fun encryptPDFToFile(keyStr: String, spec: String,uri31: Uri, uri32: Uri) {
+
+        var input: InputStream? = contentResolver.openInputStream(uri31)
+        var output: OutputStream? = contentResolver.openOutputStream(uri32)
+        try {
+            val ivParameterSpec = IvParameterSpec(Base64.decode(iv, Base64.DEFAULT))
+
+            val factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1")
+            val spec =
+                PBEKeySpec(secretKey.toCharArray(), Base64.decode(salt, Base64.DEFAULT), 10000, 256)
+            val tmp = factory.generateSecret(spec)
+            val secretKey = SecretKeySpec(tmp.encoded, "AES")
+
+            val cipher = Cipher.getInstance("AES/CBC/PKCS7Padding")
+            cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivParameterSpec)
+
+            output = CipherOutputStream(output,cipher)
+            val buffer = ByteArray(cur_buffer_size)
+            Log.d("COutput", output.toString())
+            var bytesRead:Int = 0
+            if (input != null) {
+                while(input.read(buffer).also { bytesRead = it } > 0)
+                    output.write(buffer, 0, bytesRead)
+            }
+        } finally {
+            Log.d("Output","output.flush()")
+            if (output != null) {
+                output.flush()
+            }
+            Log.d("Output","output.close()")
+            if (output != null) {
+                output.close()
+            }
+        }
+
+    }
+
     @SuppressLint("Range")
     fun dumpImageMetaData(uri: Uri) {
 
@@ -180,7 +252,7 @@ class EncryptActivityPDF : AppCompatActivity() {
                 val str1 = displayName
                 val n = 4
                 val resultsbstr = str1.dropLast(n)
-                initialpickername = resultsbstr
+                initialpickernamePDFIn = resultsbstr
                 Log.i("TAG", "Display Name Disunat: $resultsbstr")
 
                 val sizeIndex: Int = it.getColumnIndex(OpenableColumns.SIZE)

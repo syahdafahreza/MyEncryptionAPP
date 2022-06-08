@@ -7,7 +7,7 @@
     tools:context=".EncryptActivityPDF">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewFileInformation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageViewPDFIconState"
+        android:id="@+id/imageViewPDFIconStateEnc"
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:layout_marginStart="16dp"
@@ -29,12 +29,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFileInformation"
         app:srcCompat="@drawable/nofile"
         tools:srcCompat="@drawable/nofile" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textViewLabelFilename"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -42,22 +42,22 @@
         android:text="Filename:"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageViewPDFIconState"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPDFIconStateEnc"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/filenamePDFTextView"
+        android:id="@+id/filenamePDFTextViewEnc"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageViewPDFIconState"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintStart_toEndOf="@+id/imageViewPDFIconStateEnc"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLabelFilename" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textViewLabelSize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -65,22 +65,22 @@
         android:text="Size:"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageViewPDFIconState"
-        app:layout_constraintTop_toBottomOf="@+id/filenamePDFTextView" />
+        app:layout_constraintStart_toEndOf="@+id/imageViewPDFIconStateEnc"
+        app:layout_constraintTop_toBottomOf="@+id/filenamePDFTextViewEnc" />
 
     <TextView
-        android:id="@+id/filesizePDFTextView"
+        android:id="@+id/filesizePDFTextViewEnc"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageViewPDFIconState"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintStart_toEndOf="@+id/imageViewPDFIconStateEnc"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLabelSize" />
 
     <Button
-        android:id="@+id/btnOpenFilePDF"
+        android:id="@+id/btnOpenFilePDFDec"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -89,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewPDFIconState" />
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPDFIconStateEnc" />
 
     <Button
         android:id="@+id/btnBeginEncryptPDF"
@@ -100,8 +100,8 @@
         android:text="Encrypt and save!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btnOpenFilePDF"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewPDFIconState"
+        app:layout_constraintStart_toEndOf="@+id/btnOpenFilePDFDec"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPDFIconStateEnc"
         android:enabled="false"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -44,8 +44,8 @@ class EncryptActivityIMG : AppCompatActivity() {
         private val FILE_NAME_DEC = "image_dec.jpg"
         private val key = "PDY80oOtPHNYz1FG7"
         private val specString = "yoe6Nd84MOZCzbbO"
-        var inputan2Enc = ""
-        var initialpickername: String = ""
+        var inputImgURI = ""
+        var initialpickernameIMG: String = ""
     }
 
     val secretKey = "tK5UTui+DPh8lIlBxya5XVsmeDCoUl6vHhdIESMB6sQ="
@@ -117,7 +117,7 @@ class EncryptActivityIMG : AppCompatActivity() {
 
             // Optionally, specify a URI for the file that should appear in the
             // system file picker when it loads.
-            putExtra(Intent.EXTRA_TITLE, initialpickername+"_enc")
+            putExtra(Intent.EXTRA_TITLE, initialpickernameIMG+"_enc")
             putExtra(DocumentsContract.EXTRA_INITIAL_URI, pickerInitialUri)
         }
         startActivityForResult(intentSaveIMGEncrypted, 22)
@@ -133,7 +133,7 @@ class EncryptActivityIMG : AppCompatActivity() {
             // the user selected.
             resultData?.data?.also { uri21 ->
                 // Perform operations on the document using its URI.
-                inputan2Enc = uri21.toString()
+                inputImgURI = uri21.toString()
                 val buttonEncryptState = findViewById<Button>(R.id.btnBeginEncryptIMG)
                 buttonEncryptState.setEnabled(true)
                 dumpImageMetaData(uri21)
@@ -150,11 +150,11 @@ class EncryptActivityIMG : AppCompatActivity() {
                     encryptIMGToFile(
                         key,
                         specString,
-                        inputan2Enc.toUri(),
+                        inputImgURI.toUri(),
                         uri22
                     )
 
-                    Toast.makeText(this, "Encrypted.", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Encrypted!", Toast.LENGTH_SHORT).show()
 
                 } catch (e: Exception) {
                     e.printStackTrace()
@@ -209,7 +209,7 @@ class EncryptActivityIMG : AppCompatActivity() {
             if (output != null) {
                 output.close()
             }
-    }
+        }
 
     }
 
@@ -235,7 +235,7 @@ class EncryptActivityIMG : AppCompatActivity() {
                 val str1 = displayName
                 val n = 4
                 val resultsbstr = str1.dropLast(n)
-                initialpickername = resultsbstr
+                initialpickernameIMG = resultsbstr
                 Log.i("TAG", "Display Name: $resultsbstr")
 
                 val sizeIndex: Int = it.getColumnIndex(OpenableColumns.SIZE)

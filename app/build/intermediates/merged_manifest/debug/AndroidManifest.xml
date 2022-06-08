@@ -22,10 +22,16 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.MyEncryptionAPP" >
         <activity
-            android:name="com.myproject.myencryptionapp.DecryptActivityPDF"
+            android:name="com.myproject.myencryptionapp.MainMenuAPPAlt"
             android:exported="false" />
+        <activity
+            android:name="com.myproject.myencryptionapp.DecryptActivityPDF"
+            android:exported="false"
+            android:label="Document Decryption"
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuPDF" />
         <activity
             android:name="com.myproject.myencryptionapp.EncryptActivityPDF"
             android:exported="false"
@@ -35,7 +41,7 @@
             android:name="com.myproject.myencryptionapp.MainMenuPDF"
             android:exported="false"
             android:label="Document"
-            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPPAlt" />
         <activity
             android:name="com.myproject.myencryptionapp.DecryptActivityIMG"
             android:exported="false"
@@ -50,7 +56,7 @@
             android:name="com.myproject.myencryptionapp.MainMenuIMG"
             android:exported="false"
             android:label="Image"
-            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPPAlt" />
         <activity
             android:name="com.myproject.myencryptionapp.MainMenuAPP"
             android:exported="false" />
@@ -68,7 +74,7 @@
             android:name="com.myproject.myencryptionapp.MainMenuTXT"
             android:exported="false"
             android:label="Text"
-            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
+            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPPAlt" />
         <activity
             android:name="com.myproject.myencryptionapp.MainActivity"
             android:exported="true" >

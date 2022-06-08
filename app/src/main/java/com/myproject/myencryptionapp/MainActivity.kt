@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     fun startsecondactivity () {
 
         if(!isDestroyed){
-            val intent = Intent(this, MainMenuAPP::class.java)
+            val intent = Intent(this, MainMenuAPPAlt::class.java)
             val tmtask = timerTask {
                 if (!isDestroyed){
                     startActivity(intent)

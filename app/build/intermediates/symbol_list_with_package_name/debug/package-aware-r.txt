@@ -2514,6 +2514,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pdfinputfile
+drawable pdfinputfile_enc
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2618,6 +2619,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnBeginDecryptIMG
+id btnBeginDecryptPDF
 id btnBeginDecryptTXT
 id btnBeginEncryptIMG
 id btnBeginEncryptPDF
@@ -2630,7 +2632,8 @@ id btnDecryptTXTActivity
 id btnEncryptIMGActivity
 id btnEncryptPDFActivity
 id btnEncryptTXTActivity
-id btnOpenFilePDF
+id btnOpenFilePDFDec
+id btnOpenFilePDFEncrypted
 id btnOpenIMGFileEncrypted
 id btnOpenImg2Encrypt
 id btnOpenTXTFileToDecrypt
@@ -2639,8 +2642,11 @@ id btnSaveToFileDecrypt
 id btnSaveToFileEncrypt
 id btnShowAudioMenu
 id btnShowImageMenu
+id btnShowImageMenuAlt
 id btnShowPDFMenu
+id btnShowPDFMenuAlt
 id btnShowTextMenu
+id btnShowTextMenuAlt
 id btnShowVideoMenu
 id buttonPanel
 id cache_measures
@@ -2736,8 +2742,10 @@ id fieldDecryptedText
 id fieldEncryptedText
 id fieldEncryptedTextToDecrypt
 id fieldTextToEncrypt
-id filenamePDFTextView
-id filesizePDFTextView
+id filenamePDFTextViewDec
+id filenamePDFTextViewEnc
+id filesizePDFTextViewDec
+id filesizePDFTextViewEnc
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2778,7 +2786,8 @@ id image
 id imageView
 id imageView2Encrypt
 id imageViewDecrypted
-id imageViewPDFIconState
+id imageViewPDFIconStateDec
+id imageViewPDFIconStateEnc
 id immediateStop
 id included
 id info
@@ -2997,11 +3006,13 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView2Alt
 id textView3
 id textView4
-id textView5
-id textView6
-id textView8
+id textViewFileInformation
+id textViewFileInformationDec
+id textViewLabelFilename
+id textViewLabelSize
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3149,6 +3160,7 @@ layout activity_encrypt_pdf
 layout activity_encrypt_txt
 layout activity_main
 layout activity_main_menu_app
+layout activity_main_menu_app_alt
 layout activity_main_menu_img
 layout activity_main_menu_pdf
 layout activity_main_menu_txt

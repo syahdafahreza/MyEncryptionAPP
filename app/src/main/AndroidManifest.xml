@@ -17,18 +17,23 @@
         android:theme="@style/Theme.MyEncryptionAPP"
         tools:targetApi="31">
         <activity
-            android:name=".DecryptActivityPDF"
+            android:name=".MainMenuAPPAlt"
             android:exported="false" />
+        <activity
+            android:name=".DecryptActivityPDF"
+            android:exported="false"
+            android:label="Document Decryption"
+            android:parentActivityName=".MainMenuPDF" />
         <activity
             android:name=".EncryptActivityPDF"
             android:exported="false"
             android:label="Document Encryption"
-            android:parentActivityName=".MainMenuPDF"/>
+            android:parentActivityName=".MainMenuPDF" />
         <activity
             android:name=".MainMenuPDF"
             android:exported="false"
             android:label="Document"
-            android:parentActivityName=".MainMenuAPP" />
+            android:parentActivityName=".MainMenuAPPAlt" />
         <activity
             android:name=".DecryptActivityIMG"
             android:exported="false"
@@ -43,7 +48,7 @@
             android:name=".MainMenuIMG"
             android:exported="false"
             android:label="Image"
-            android:parentActivityName=".MainMenuAPP" />
+            android:parentActivityName=".MainMenuAPPAlt" />
         <activity
             android:name=".MainMenuAPP"
             android:exported="false" />
@@ -61,7 +66,7 @@
             android:name=".MainMenuTXT"
             android:exported="false"
             android:label="Text"
-            android:parentActivityName=".MainMenuAPP" />
+            android:parentActivityName=".MainMenuAPPAlt" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

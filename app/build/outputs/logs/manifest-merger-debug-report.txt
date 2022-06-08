@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-76:12
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-81:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\Entahlah\.gradle\caches\transforms-3\97c4c647c3230353c4350c2d1c53aadd\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.karumi:dexter:6.2.3] C:\Users\Entahlah\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Entahlah\.gradle\caches\transforms-3\9b1e2433b2fc481be58c139de7a492cf\transformed\material-1.6.0\AndroidManifest.xml:17:1-26:12
@@ -45,22 +45,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Entahlah\.gradle
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\ec54faf1561ff8e16e63442f6dfbe5f2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\ec980e7efefdaffa74c0eb5a1910ad8c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Entahlah\.gradle\caches\transforms-3\790e79799443309ec30d99da3f5657b0\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-81:12
 	package
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:4:5-44
 		INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-76:12
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-76:12
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:1-81:12
 		INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:2:11-69
@@ -73,7 +73,7 @@ ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:7:22-77
 application
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:9:5-74:19
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:9:5-79:19
 MERGED from [com.karumi:dexter:6.2.3] C:\Users\Entahlah\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.2.3] C:\Users\Entahlah\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Entahlah\.gradle\caches\transforms-3\9b1e2433b2fc481be58c139de7a492cf\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
@@ -110,14 +110,14 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Entahlah\.gradle\c
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:17:9-53
 	android:dataExtractionRules
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:11:9-65
-activity#com.myproject.myencryptionapp.DecryptActivityPDF
+activity#com.myproject.myencryptionapp.MainMenuAPPAlt
 ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:20:13-47
-activity#com.myproject.myencryptionapp.EncryptActivityPDF
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:22:9-26:56
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:20:13-43
+activity#com.myproject.myencryptionapp.DecryptActivityPDF
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:22:9-26:57
 	android:parentActivityName
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:26:13-54
 	android:label
@@ -126,27 +126,27 @@ ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\Andro
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:23:13-47
-activity#com.myproject.myencryptionapp.MainMenuPDF
+activity#com.myproject.myencryptionapp.EncryptActivityPDF
 ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:27:9-31:57
 	android:parentActivityName
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:31:13-54
 	android:label
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:30:13-48
 	android:exported
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:28:13-40
-activity#com.myproject.myencryptionapp.DecryptActivityIMG
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:32:9-36:57
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:28:13-47
+activity#com.myproject.myencryptionapp.MainMenuPDF
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:32:9-36:60
 	android:parentActivityName
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:36:13-54
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:36:13-57
 	android:label
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:35:13-45
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:35:13-37
 	android:exported
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:33:13-47
-activity#com.myproject.myencryptionapp.EncryptActivityIMG
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:33:13-40
+activity#com.myproject.myencryptionapp.DecryptActivityIMG
 ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:37:9-41:57
 	android:parentActivityName
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:41:13-54
@@ -156,33 +156,33 @@ ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\Andro
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:38:13-47
-activity#com.myproject.myencryptionapp.MainMenuIMG
+activity#com.myproject.myencryptionapp.EncryptActivityIMG
 ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:42:9-46:57
 	android:parentActivityName
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:46:13-54
 	android:label
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:45:13-34
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:45:13-45
 	android:exported
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:43:13-40
-activity#com.myproject.myencryptionapp.MainMenuAPP
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:47:9-49:40
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:43:13-47
+activity#com.myproject.myencryptionapp.MainMenuIMG
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:47:9-51:60
+	android:parentActivityName
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:51:13-57
+	android:label
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:50:13-34
 	android:exported
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:48:13-40
-activity#com.myproject.myencryptionapp.DecryptActivityTXT
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:50:9-54:57
-	android:parentActivityName
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:54:13-54
-	android:label
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:53:13-44
+activity#com.myproject.myencryptionapp.MainMenuAPP
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:52:9-54:40
 	android:exported
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:51:13-47
-activity#com.myproject.myencryptionapp.EncryptActivityTXT
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:53:13-40
+activity#com.myproject.myencryptionapp.DecryptActivityTXT
 ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:55:9-59:57
 	android:parentActivityName
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:59:13-54
@@ -192,32 +192,42 @@ ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\Andro
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:57:13-37
 	android:name
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:56:13-47
-activity#com.myproject.myencryptionapp.MainMenuTXT
+activity#com.myproject.myencryptionapp.EncryptActivityTXT
 ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:60:9-64:57
 	android:parentActivityName
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:64:13-54
 	android:label
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:63:13-33
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:63:13-44
 	android:exported
 		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:62:13-37
 	android:name
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:61:13-40
-activity#com.myproject.myencryptionapp.MainActivity
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:65:9-73:20
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:61:13-47
+activity#com.myproject.myencryptionapp.MainMenuTXT
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:65:9-69:60
+	android:parentActivityName
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:69:13-57
+	android:label
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:68:13-33
 	android:exported
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:67:13-36
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:66:13-41
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:66:13-40
+activity#com.myproject.myencryptionapp.MainActivity
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:70:9-78:20
+	android:exported
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:72:13-36
+	android:name
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:71:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:68:13-72:29
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:73:13-77:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:69:17-69
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:74:17-69
 	android:name
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:69:25-66
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:74:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:71:17-77
+ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:76:17-77
 	android:name
-		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:71:27-74
+		ADDED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:76:27-74
 uses-sdk
 INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml

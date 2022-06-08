@@ -18,7 +18,7 @@
 12-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:7:22-77
 13
 14    <application
-14-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:9:5-74:19
+14-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:9:5-79:19
 15        android:allowBackup="true"
 15-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -37,145 +37,156 @@
 23-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:15:9-54
 24        android:supportsRtl="true"
 24-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:16:9-35
-25        android:theme="@style/Theme.MyEncryptionAPP" >
-25-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:17:9-53
-26        <activity
-26-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:19:9-21:40
-27            android:name="com.myproject.myencryptionapp.DecryptActivityPDF"
-27-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:20:13-47
-28            android:exported="false" />
-28-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:21:13-37
-29        <activity
-29-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:22:9-26:56
-30            android:name="com.myproject.myencryptionapp.EncryptActivityPDF"
-30-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:23:13-47
-31            android:exported="false"
-31-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:24:13-37
-32            android:label="Document Encryption"
-32-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:25:13-48
-33            android:parentActivityName="com.myproject.myencryptionapp.MainMenuPDF" />
-33-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:26:13-54
-34        <activity
-34-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:27:9-31:57
-35            android:name="com.myproject.myencryptionapp.MainMenuPDF"
-35-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:28:13-40
-36            android:exported="false"
-36-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:29:13-37
-37            android:label="Document"
-37-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:30:13-37
-38            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
-38-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:31:13-54
-39        <activity
-39-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:32:9-36:57
-40            android:name="com.myproject.myencryptionapp.DecryptActivityIMG"
-40-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:33:13-47
-41            android:exported="false"
-41-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:34:13-37
-42            android:label="Image Decryption"
-42-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:35:13-45
-43            android:parentActivityName="com.myproject.myencryptionapp.MainMenuIMG" />
-43-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:36:13-54
-44        <activity
-44-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:37:9-41:57
-45            android:name="com.myproject.myencryptionapp.EncryptActivityIMG"
-45-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:38:13-47
-46            android:exported="false"
-46-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:39:13-37
-47            android:label="Image Encryption"
-47-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:40:13-45
-48            android:parentActivityName="com.myproject.myencryptionapp.MainMenuIMG" />
-48-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:41:13-54
-49        <activity
-49-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:42:9-46:57
-50            android:name="com.myproject.myencryptionapp.MainMenuIMG"
-50-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:43:13-40
-51            android:exported="false"
-51-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:44:13-37
-52            android:label="Image"
-52-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:45:13-34
-53            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
-53-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:46:13-54
-54        <activity
-54-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:47:9-49:40
-55            android:name="com.myproject.myencryptionapp.MainMenuAPP"
-55-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:48:13-40
-56            android:exported="false" />
-56-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:49:13-37
-57        <activity
-57-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:50:9-54:57
-58            android:name="com.myproject.myencryptionapp.DecryptActivityTXT"
-58-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:51:13-47
-59            android:exported="false"
-59-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:52:13-37
-60            android:label="Text Decryption"
-60-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:53:13-44
-61            android:parentActivityName="com.myproject.myencryptionapp.MainMenuTXT" />
-61-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:54:13-54
-62        <activity
-62-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:55:9-59:57
-63            android:name="com.myproject.myencryptionapp.EncryptActivityTXT"
-63-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:56:13-47
-64            android:exported="false"
-64-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:57:13-37
-65            android:label="Text Encryption"
-65-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:58:13-44
-66            android:parentActivityName="com.myproject.myencryptionapp.MainMenuTXT" />
-66-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:59:13-54
-67        <activity
-67-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:60:9-64:57
-68            android:name="com.myproject.myencryptionapp.MainMenuTXT"
-68-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:61:13-40
-69            android:exported="false"
-69-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:62:13-37
-70            android:label="Text"
-70-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:63:13-33
-71            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPP" />
-71-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:64:13-54
-72        <activity
-72-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:65:9-73:20
-73            android:name="com.myproject.myencryptionapp.MainActivity"
-73-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:66:13-41
-74            android:exported="true" >
-74-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:67:13-36
-75            <intent-filter>
-75-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:68:13-72:29
-76                <action android:name="android.intent.action.MAIN" />
-76-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:69:17-69
-76-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:69:25-66
-77
-78                <category android:name="android.intent.category.LAUNCHER" />
-78-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:71:17-77
-78-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:71:27-74
-79            </intent-filter>
-80        </activity>
-81        <activity
-81-->[com.karumi:dexter:6.2.3] C:\Users\Entahlah\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
-82            android:name="com.karumi.dexter.DexterActivity"
-82-->[com.karumi:dexter:6.2.3] C:\Users\Entahlah\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:28:13-60
-83            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-83-->[com.karumi:dexter:6.2.3] C:\Users\Entahlah\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:29:13-69
-84
-85        <provider
-85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-86            android:name="androidx.startup.InitializationProvider"
-86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-87            android:authorities="com.myproject.myencryptionapp.androidx-startup"
-87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-88            android:exported="false" >
-88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-89            <meta-data
-89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-90                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-91                android:value="androidx.startup" />
-91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-92            <meta-data
-92-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Entahlah\.gradle\caches\transforms-3\1a66539b8fdc40eb9d840cfdf85902fb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-93                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-93-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Entahlah\.gradle\caches\transforms-3\1a66539b8fdc40eb9d840cfdf85902fb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-94                android:value="androidx.startup" />
-94-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Entahlah\.gradle\caches\transforms-3\1a66539b8fdc40eb9d840cfdf85902fb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-95        </provider>
-96    </application>
-97
-98</manifest>
+25        android:testOnly="true"
+26        android:theme="@style/Theme.MyEncryptionAPP" >
+26-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:17:9-53
+27        <activity
+27-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:19:9-21:40
+28            android:name="com.myproject.myencryptionapp.MainMenuAPPAlt"
+28-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:20:13-43
+29            android:exported="false" />
+29-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:21:13-37
+30        <activity
+30-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:22:9-26:57
+31            android:name="com.myproject.myencryptionapp.DecryptActivityPDF"
+31-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:23:13-47
+32            android:exported="false"
+32-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:24:13-37
+33            android:label="Document Decryption"
+33-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:25:13-48
+34            android:parentActivityName="com.myproject.myencryptionapp.MainMenuPDF" />
+34-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:26:13-54
+35        <activity
+35-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:27:9-31:57
+36            android:name="com.myproject.myencryptionapp.EncryptActivityPDF"
+36-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:28:13-47
+37            android:exported="false"
+37-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:29:13-37
+38            android:label="Document Encryption"
+38-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:30:13-48
+39            android:parentActivityName="com.myproject.myencryptionapp.MainMenuPDF" />
+39-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:31:13-54
+40        <activity
+40-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:32:9-36:60
+41            android:name="com.myproject.myencryptionapp.MainMenuPDF"
+41-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:33:13-40
+42            android:exported="false"
+42-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:34:13-37
+43            android:label="Document"
+43-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:35:13-37
+44            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPPAlt" />
+44-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:36:13-57
+45        <activity
+45-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:37:9-41:57
+46            android:name="com.myproject.myencryptionapp.DecryptActivityIMG"
+46-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:38:13-47
+47            android:exported="false"
+47-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:39:13-37
+48            android:label="Image Decryption"
+48-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:40:13-45
+49            android:parentActivityName="com.myproject.myencryptionapp.MainMenuIMG" />
+49-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:41:13-54
+50        <activity
+50-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:42:9-46:57
+51            android:name="com.myproject.myencryptionapp.EncryptActivityIMG"
+51-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:43:13-47
+52            android:exported="false"
+52-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:44:13-37
+53            android:label="Image Encryption"
+53-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:45:13-45
+54            android:parentActivityName="com.myproject.myencryptionapp.MainMenuIMG" />
+54-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:46:13-54
+55        <activity
+55-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:47:9-51:60
+56            android:name="com.myproject.myencryptionapp.MainMenuIMG"
+56-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:48:13-40
+57            android:exported="false"
+57-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:49:13-37
+58            android:label="Image"
+58-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:50:13-34
+59            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPPAlt" />
+59-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:51:13-57
+60        <activity
+60-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:52:9-54:40
+61            android:name="com.myproject.myencryptionapp.MainMenuAPP"
+61-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:53:13-40
+62            android:exported="false" />
+62-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:54:13-37
+63        <activity
+63-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:55:9-59:57
+64            android:name="com.myproject.myencryptionapp.DecryptActivityTXT"
+64-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:56:13-47
+65            android:exported="false"
+65-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:57:13-37
+66            android:label="Text Decryption"
+66-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:58:13-44
+67            android:parentActivityName="com.myproject.myencryptionapp.MainMenuTXT" />
+67-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:59:13-54
+68        <activity
+68-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:60:9-64:57
+69            android:name="com.myproject.myencryptionapp.EncryptActivityTXT"
+69-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:61:13-47
+70            android:exported="false"
+70-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:62:13-37
+71            android:label="Text Encryption"
+71-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:63:13-44
+72            android:parentActivityName="com.myproject.myencryptionapp.MainMenuTXT" />
+72-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:64:13-54
+73        <activity
+73-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:65:9-69:60
+74            android:name="com.myproject.myencryptionapp.MainMenuTXT"
+74-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:66:13-40
+75            android:exported="false"
+75-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:67:13-37
+76            android:label="Text"
+76-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:68:13-33
+77            android:parentActivityName="com.myproject.myencryptionapp.MainMenuAPPAlt" />
+77-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:69:13-57
+78        <activity
+78-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:70:9-78:20
+79            android:name="com.myproject.myencryptionapp.MainActivity"
+79-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:71:13-41
+80            android:exported="true" >
+80-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:72:13-36
+81            <intent-filter>
+81-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:73:13-77:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:74:17-69
+82-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:74:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:76:17-77
+84-->C:\Users\Entahlah\Documents\GitHub\MyEncryptionAPP\app\src\main\AndroidManifest.xml:76:27-74
+85            </intent-filter>
+86        </activity>
+87        <activity
+87-->[com.karumi:dexter:6.2.3] C:\Users\Entahlah\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+88            android:name="com.karumi.dexter.DexterActivity"
+88-->[com.karumi:dexter:6.2.3] C:\Users\Entahlah\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:28:13-60
+89            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+89-->[com.karumi:dexter:6.2.3] C:\Users\Entahlah\.gradle\caches\transforms-3\7d4e49b91299cff74301eb998827f5e3\transformed\dexter-6.2.3\AndroidManifest.xml:29:13-69
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+93            android:authorities="com.myproject.myencryptionapp.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Entahlah\.gradle\caches\transforms-3\8aef4e70ce677e20fe8052e70e59f9e7\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Entahlah\.gradle\caches\transforms-3\1a66539b8fdc40eb9d840cfdf85902fb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Entahlah\.gradle\caches\transforms-3\1a66539b8fdc40eb9d840cfdf85902fb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Entahlah\.gradle\caches\transforms-3\1a66539b8fdc40eb9d840cfdf85902fb\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+101        </provider>
+102    </application>
+103
+104</manifest>

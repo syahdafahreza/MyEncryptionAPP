@@ -47,7 +47,7 @@ class DecryptActivityIMG : AppCompatActivity() {
         private val FILE_NAME_DEC = "image_dec.jpg"
         private val key = "PDY80oOtPHNYz1FG7"
         private val specString = "yoe6Nd84MOZCzbbO"
-        var inputan = ""
+        var inputImgUriEnc = ""
         var initialpickername2: String = ""
     }
     val secretKey = "tK5UTui+DPh8lIlBxya5XVsmeDCoUl6vHhdIESMB6sQ="
@@ -135,8 +135,8 @@ class DecryptActivityIMG : AppCompatActivity() {
                 val buttonDecryptState = findViewById<Button>(R.id.btnBeginDecryptIMG)
                 buttonDecryptState.setEnabled(true)
                 dumpImageMetaData(uri23)
-                inputan = uri23.toString()
-                Log.d("inputan", inputan)
+                inputImgUriEnc = uri23.toString()
+                Log.d("inputan", inputImgUriEnc)
             }
         }
         else if (requestCode == 24
@@ -151,7 +151,7 @@ class DecryptActivityIMG : AppCompatActivity() {
                         decryptIMGToFile(
                             key,
                             specString,
-                            inputan.toUri(),
+                            inputImgUriEnc.toUri(),
                             uri24,
                         )
                         val imageUri2: Uri = uri24
@@ -159,7 +159,7 @@ class DecryptActivityIMG : AppCompatActivity() {
                         decryptedImageView.setImageURI(imageUri2)
 //                outputFileDec.delete()
 
-                        Toast.makeText(this, "Decrypted.", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Decrypted!", Toast.LENGTH_SHORT).show()
                     } catch (e: Exception) {
                         e.printStackTrace()
                     }
