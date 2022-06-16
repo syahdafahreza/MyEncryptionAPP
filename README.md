@@ -40,7 +40,7 @@ $ git clone https://github.com/syahdafahreza/MyEncryptionAPP
 
 To open this project in Android Studio:
 ```
-Open > Select the project folder you just downloaded. In this case select MyEncryptionAPP folder > and then press OK.
+Open > Select the project folder > and then press OK
 ```
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/syahdafahreza/MyEncryptionAPP/main/additional%20res/screenshots/Screenshot%202022-06-16%20102334.png" alt="MyEncryptionAPP" width="256"></a>
