@@ -50,6 +50,6 @@ You can download this repository by clicking the green code button and then clic
 
 ## License
 
-MIT
+[![MIT License][license-shield]][license-url]
 
 ---
