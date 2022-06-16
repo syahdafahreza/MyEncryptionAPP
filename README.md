@@ -20,8 +20,6 @@
   <br>
   <img src="https://raw.githubusercontent.com/syahdafahreza/MyEncryptionAPP/main/additional%20res/screenshots/Screenshot_20220616_094811.png" alt="MyEncryptionAPP" width="512"></a>
   <br>
-  MyEncryptionAPP
-  <br>
 </h1>
 
 ## Key Features
