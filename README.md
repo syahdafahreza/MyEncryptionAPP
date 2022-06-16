@@ -16,7 +16,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/syahdafahreza/MyEncryptionAPP/main/additional%20res/screenshots/Screenshot_20220616_094811.jpg)
+![screenshot](https://raw.githubusercontent.com/syahdafahreza/MyEncryptionAPP/main/additional%20res/screenshots/Screenshot_20220616_094811.png)
 
 ## Key Features
 
