@@ -39,7 +39,7 @@ $ git clone https://github.com/syahdafahreza/MyEncryptionAPP
 ```
 
 To open this project in Android Studio:
-```bash
+```
 Open > Select the project folder you just downloaded. In this case select MyEncryptionAPP folder > and then press OK.
 ```
 
