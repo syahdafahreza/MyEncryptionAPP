@@ -48,7 +48,7 @@ Open > Select the project folder > and then press OK
 
 ## Download
 
-You can download this repository by clicking the green code button and then click Download ZIP.
+You can download this repository by clicking the green code button above and then click Download ZIP.
 
 ## License
 
